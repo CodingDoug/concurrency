@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hyperaware.android.talk.concurrency">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".ActivityMain"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ActivityBasicThread"
+            android:label="@string/title_activity_basic_thread"
+            />
+
+        <activity
+            android:name=".ActivityBasicAsyncTask"
+            android:label="@string/title_activity_basic_asynctask"
+            />
+
+        <activity
+            android:name=".ActivityBasicLoader"
+            android:label="@string/title_activity_basic_loader"
+            />
+
+        <activity
+            android:name=".ActivityInvalidNonStaticLoader"
+            android:label="@string/title_activity_invalid_nonstatic_loader"
+            />
+
+        <activity
+            android:name=".ActivityStatefulLoader"
+            android:label="@string/title_activity_stateful_loader"
+            />
+
+        <activity
+            android:name=".ActivityMusicCursorLoader"
+            android:label="@string/title_activity_music_cursor_loader"
+            />
+
+        <activity
+            android:name=".ActivityProgressLoader"
+            android:label="@string/title_activity_progress_loader"
+            />
+
+        <activity
+            android:name=".ActivityAsyncApiLoader"
+            android:label="@string/title_activity_async_api_loader"
+            />
+
+        <activity
+            android:name=".ActivityBasicIntentService"
+            android:label="@string/title_activity_basic_intent_service"
+            />
+
+        <service
+            android:name=".BasicIntentService"
+            android:label="@string/basic_intent_service"
+            />
+
+    </application>
+
+</manifest>

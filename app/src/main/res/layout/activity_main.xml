@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    >
+
+        <Button
+            android:id="@+id/button_basic_thread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Basic Thread"
+        />
+
+        <Button
+            android:id="@+id/button_basic_asynctask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Basic AsyncTask"
+        />
+
+        <Button
+            android:id="@+id/button_basic_loader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Basic Loader"
+        />
+
+        <Button
+            android:id="@+id/button_invalid_nonstatic_loader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Invalid Non-Static Loader"
+        />
+
+        <Button
+            android:id="@+id/button_stateful_loader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stateful Loader"
+        />
+
+        <Button
+            android:id="@+id/button_music_cursor_loader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Music Cursor Loader"
+        />
+
+        <Button
+            android:id="@+id/button_progress_loader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Progress Loader"
+            />
+
+        <Button
+            android:id="@+id/button_async_api_loader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Async API Loader"
+            />
+
+        <Button
+            android:id="@+id/button_basic_intentservice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Basic IntentService"
+        />
+
+    </LinearLayout>
+
+</ScrollView>

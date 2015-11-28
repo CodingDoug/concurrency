@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+>
+
+    <Button
+        android:id="@+id/button_load_now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/load_now"
+    />
+
+    <LinearLayout
+        android:id="@+id/v_progress_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+    >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/loading"
+        />
+        <TextView
+	        android:id="@+id/tv_progress"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	    />
+    </LinearLayout>
+
+</LinearLayout>
